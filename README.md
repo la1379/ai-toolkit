@@ -45,7 +45,7 @@ skills/
   hamiji/                   哈基米聊天风格（仅显式触发）
   big-assignment-format/    车辆/机械类课程文档格式
   exam-review-color/        彩色重点版复习资料
-  exam-review-close-book/   闭卷简答题模拟题集
+  exam-review-closed-book/   闭卷简答题模拟题集
   ocr-vision/               图片/截图/PDF 文字提取，三级降级（含 ocr_mimo.py）
 ```
 
@@ -60,7 +60,7 @@ skills/
 | `hamiji` | 短句、带梗的聊天人格 | 哈基米、hamiji 模式 |
 | `big-assignment-format` | 课程设计/实验报告/说明书的格式规范 | 大作业、课程设计、排版 |
 | `exam-review-color` | 彩色重点版复习资料，10 段固定结构 | 彩色重点版、分层精讲版 |
-| `exam-review-close-book` | 闭卷简答题模拟题集 + 旧资料补全 | 闭卷简答题、模拟题集 |
+| `exam-review-closed-book` | 闭卷简答题模拟题集 + 旧资料补全 | 闭卷简答题、模拟题集 |
 | `ocr-vision` | 图片/PDF 取字，MiMo → DeepSeek → Tesseract | 识图、OCR、截图转文字 |
 
 ## 安装
