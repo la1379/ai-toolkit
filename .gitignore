@@ -1,0 +1,36 @@
+# 凭证与本地配置
+.env
+.env.*
+!.env.example
+config.yaml
+config.local.*
+*.pem
+*.key
+credentials.*
+.secrets.baseline
+
+# 会话导出与日志
+*.log
+runs/
+snapshots/
+cache/
+exports/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Node
+node_modules/
+dist/
+build/
+
+# 编辑器 / 系统
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
