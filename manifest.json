@@ -60,13 +60,6 @@
                        "raw":  "https://raw.githubusercontent.com/la1379/ai-toolkit/main/skills/exam-review-closed-book/SKILL.md",
                        "description":  "闭卷简答题模拟题集",
                        "raw_proxy":  "https://gh-proxy.com/https://raw.githubusercontent.com/la1379/ai-toolkit/main/skills/exam-review-closed-book/SKILL.md"
-                   },
-                   {
-                       "name":  "ocr-vision",
-                       "path":  "skills/ocr-vision/SKILL.md",
-                       "raw":  "https://raw.githubusercontent.com/la1379/ai-toolkit/main/skills/ocr-vision/SKILL.md",
-                       "description":  "图片/截图/PDF 文字提取，三级降级",
-                       "raw_proxy":  "https://gh-proxy.com/https://raw.githubusercontent.com/la1379/ai-toolkit/main/skills/ocr-vision/SKILL.md"
                    }
                ],
     "raw_proxy_base":  "https://gh-proxy.com/https://raw.githubusercontent.com/la1379/ai-toolkit/main"

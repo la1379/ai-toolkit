@@ -46,7 +46,6 @@ skills/
   big-assignment-format/    车辆/机械类课程文档格式
   exam-review-color/        彩色重点版复习资料
   exam-review-closed-book/   闭卷简答题模拟题集
-  ocr-vision/               图片/截图/PDF 文字提取，三级降级（含 ocr_mimo.py）
 ```
 
 ## Skills 一览
@@ -61,7 +60,6 @@ skills/
 | `big-assignment-format` | 课程设计/实验报告/说明书的格式规范 | 大作业、课程设计、排版 |
 | `exam-review-color` | 彩色重点版复习资料，10 段固定结构 | 彩色重点版、分层精讲版 |
 | `exam-review-closed-book` | 闭卷简答题模拟题集 + 旧资料补全 | 闭卷简答题、模拟题集 |
-| `ocr-vision` | 图片/PDF 取字，MiMo → DeepSeek → Tesseract | 识图、OCR、截图转文字 |
 
 ## 安装
 
@@ -84,7 +82,6 @@ Copy-Item -Recurse -Force ai-toolkit\skills\* "$HOME\.claude\skills\"
 ## 使用前提
 
 - `bili-learn` 需要 `@xzxzzx/bilibili-mcp` 和 B 站 Cookie。
-- `ocr-vision` 方案 A 需要 `MIMO_API_KEY`，方案 B 需要 `DEEPSEEK_API_KEY`，方案 C 需要 Tesseract。
 - `exam-review-*` 和 `big-assignment-format` 只依赖模型本身；生成 Word 时需要 `docx` 能力或 python-docx。
 
 ## 设计原则
