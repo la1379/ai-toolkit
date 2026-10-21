@@ -1,7 +1,7 @@
 {
     "name":  "ai-toolkit",
-    "version":  "2.0.0",
-    "updated":  "2026-10-19",
+    "version":  "2.1.0",
+    "updated":  "2026-10-21",
     "repo":  "https://github.com/la1379/ai-toolkit",
     "raw_base":  "https://raw.githubusercontent.com/la1379/ai-toolkit/main",
     "skills":  [
@@ -53,6 +53,34 @@
                        "raw":  "https://raw.githubusercontent.com/la1379/ai-toolkit/main/skills/exam-review-closed-book/SKILL.md",
                        "description":  "闭卷简答题模拟题集",
                        "raw_proxy":  "https://gh-proxy.com/https://raw.githubusercontent.com/la1379/ai-toolkit/main/skills/exam-review-closed-book/SKILL.md"
+                   },
+                   {
+                       "name":  "agent-reach",
+                       "path":  "skills/agent-reach/SKILL.md",
+                       "raw":  "https://raw.githubusercontent.com/la1379/ai-toolkit/main/skills/agent-reach/SKILL.md",
+                       "description":  "15 平台统一搜索与抓取，多后端路由",
+                       "raw_proxy":  "https://gh-proxy.com/https://raw.githubusercontent.com/la1379/ai-toolkit/main/skills/agent-reach/SKILL.md"
+                   },
+                   {
+                       "name":  "awesome-design-html",
+                       "path":  "skills/awesome-design-html/SKILL.md",
+                       "raw":  "https://raw.githubusercontent.com/la1379/ai-toolkit/main/skills/awesome-design-html/SKILL.md",
+                       "description":  "118 个单页 HTML 设计参考 + 中国传统色色卡",
+                       "raw_proxy":  "https://gh-proxy.com/https://raw.githubusercontent.com/la1379/ai-toolkit/main/skills/awesome-design-html/SKILL.md"
+                   },
+                   {
+                       "name":  "humanizer-zh",
+                       "path":  "skills/humanizer-zh/SKILL.md",
+                       "raw":  "https://raw.githubusercontent.com/la1379/ai-toolkit/main/skills/humanizer-zh/SKILL.md",
+                       "description":  "去除中文文本里的 AI 生成痕迹",
+                       "raw_proxy":  "https://gh-proxy.com/https://raw.githubusercontent.com/la1379/ai-toolkit/main/skills/humanizer-zh/SKILL.md"
+                   },
+                   {
+                       "name":  "life-decision-guide",
+                       "path":  "skills/life-decision-guide/SKILL.md",
+                       "raw":  "https://raw.githubusercontent.com/la1379/ai-toolkit/main/skills/life-decision-guide/SKILL.md",
+                       "description":  "用《高性价比人生指南》回答具体人生决策",
+                       "raw_proxy":  "https://gh-proxy.com/https://raw.githubusercontent.com/la1379/ai-toolkit/main/skills/life-decision-guide/SKILL.md"
                    }
                ],
     "raw_proxy_base":  "https://gh-proxy.com/https://raw.githubusercontent.com/la1379/ai-toolkit/main"

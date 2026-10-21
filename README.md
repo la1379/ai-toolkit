@@ -45,6 +45,10 @@ skills/
   big-assignment-format/    车辆/机械类课程文档格式
   exam-review-color/        彩色重点版复习资料
   exam-review-closed-book/   闭卷简答题模拟题集
+  agent-reach/              15 平台搜索与抓取，多后端路由
+  awesome-design-html/      118 个单页 HTML 设计参考 + 中国传统色（7.9 MB）
+  humanizer-zh/             去除中文文本的 AI 生成痕迹
+  life-decision-guide/      人生决策问答，按成本/收益/证据排序
 ```
 
 ## Skills 一览
@@ -58,6 +62,10 @@ skills/
 | `big-assignment-format` | 课程设计/实验报告/说明书的格式规范 | 大作业、课程设计、排版 |
 | `exam-review-color` | 彩色重点版复习资料，10 段固定结构 | 彩色重点版、分层精讲版 |
 | `exam-review-closed-book` | 闭卷简答题模拟题集 + 旧资料补全 | 闭卷简答题、模拟题集 |
+| `agent-reach` | 15 平台统一入口：小红书、Twitter、B站、Reddit、GitHub、YouTube 等 | 调研、搜一下、看看评价 |
+| `awesome-design-html` | 118 个单页 HTML 设计参考，含 742 色中国传统色卡 | 做个 XX 风格的页面、配色 |
+| `humanizer-zh` | 按维基百科「AI 写作特征」清理中文文本 | 去 AI 味、自然一点 |
+| `life-decision-guide` | 用《高性价比人生指南》回答该不该/值不值/怎么选 | 该不该、值不值、帮我决定 |
 
 ## 安装
 
@@ -81,6 +89,15 @@ Copy-Item -Recurse -Force ai-toolkit\skills\* "$HOME\.agents\skills\"
 
 - `bili-learn` 需要 `@xzxzzx/bilibili-mcp` 和 B 站 Cookie。
 - `exam-review-*` 和 `big-assignment-format` 只依赖模型本身；生成 Word 时需要 `docx` 能力或 python-docx。
+- `agent-reach` 需要 `pipx install agent-reach` 和各平台后端；首次使用前跑 `agent-reach doctor --json` 看哪些渠道可用。
+- `life-decision-guide` 首次会 clone `eternity4719/HowToLiveBetter` 作为正文来源。
+- `awesome-design-html` 是静态资源，无额外依赖。
+
+## 不随本仓库分发
+
+- `docx` / `pptx` / `xlsx` / `pdf`：Anthropic 官方文档技能，随 Claude Code 服务提供，许可证禁止再分发。
+- `office-academic-skill`：来源与许可证未明。
+- `ppt-master` / `planners-ppt-hell`：带几十 MB 资源，只本地使用。
 
 ## 设计原则
 
