@@ -2,7 +2,7 @@
 name: bili-learn
 description: B站收藏集 → 学习待办。把 B 站收藏/链接收割成可消化的知识条目：定级（0删/1工具/2方法论/3硬核）、按级别提炼、维护 My_Skills 索引与状态。触发场景：发来 B 站链接要提炼/归档、要处理收藏集、说"学习待办/收割收藏/这条怎么办、归哪个级别"。也负责收藏夹增量扫描与字幕体检。
 license: MIT
-version: 1.0.0
+version: 1.1.0
 ---
 
 # bili-learn：B站收藏集 → 学习待办
@@ -49,7 +49,7 @@ version: 1.0.0
 - 知识库：`~/My_Skills/`（00_Inbox / 01_Tools / 02_Insights / 03_Hardcore / 04_Archive + INDEX.md）
 - 车间：`~/bili-learn/`（project.md=现状 / 日志.md=历史 / scripts/ / data/ ← 缓存区，可删可重建）
 - 凭证：`~/.bilibili-mcp/config.json`；报 COOKIE_EXPIRED → `node ~/.bilibili-refresh/refresh.js run`（exit 2 → `init` 重新扫码；**改凭证后需重启会话**）
-- 零 token 脚本：`fav_inventory.js` 收藏夹全量快照｜`check_subtitle.js` 字幕体检｜`probe_favs.js` 规模探查。本仓库带了一份在 `skills/bili-learn/scripts/`；运行时放在车间 `scripts/` 也可以。
+- 零 token 脚本：`fav_inventory.js` 收藏夹全量快照｜`check_subtitle.js` 字幕体检｜`probe_favs.js` 规模探查。脚本放在车间 `scripts/`，不随仓库分发。
 - MCP：`@xzxzzx/bilibili-mcp` 现 1.9.0；**1.14.2 才有收藏夹遍历工具 + 本地 ASR 兜底**（升级命令已备好未执行：全局 npm install -g + 重启会话；⚠️ npm 走 npmmirror 源，直连卡死见坑池）
 
 ## 4. 素材路线速查（实战验证过）
@@ -85,11 +85,10 @@ version: 1.0.0
 只增不减的系统必然膨胀——**学只管长，剪/查管代谢，缺一不可**。
 
 改动规则层后 grep 全库对账死链。
-**副本纪律：本 skill 单一来源（`~/.claude/skills/bili-learn`），不做副本；要分发就写同步脚本（new-project 曾漏同步 3 周，引以为戒）。**
+**副本纪律：本 skill 单一来源（`~/.agents/skills/bili-learn`），不做副本；要分发就写同步脚本（new-project 曾漏同步 3 周，引以为戒）。**
 
 ## 6. 节奏与边界
 
 - 一批一汇报（增量处理，别一次吞几十条）；每条即处理即存
 - 收藏夹增量：重跑 `fav_inventory.js` → 与快照对比 `fav_time` → 新增进待办
 - 缓存区（data\）随便删，资产区（My_Skills\）谨慎动；备份只备份资产区
-- ⏰ 时效条：2026-10-13~16 竞赛周暂停本项目，10/17 后恢复（面板 / 全量体检 / MCP 升级 / ASR 评估排队中）——**过期后删掉本条**
