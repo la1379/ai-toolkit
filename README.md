@@ -45,7 +45,7 @@ skills/
   big-assignment-format/    车辆/机械类课程文档格式
   exam-review-color/        彩色重点版复习资料
   exam-review-closed-book/   闭卷简答题模拟题集
-  agent-reach/              15 平台搜索与抓取，多后端路由
+  agent-reach/              15 平台搜索与抓取，多后端路由（MIT）
   awesome-design-html/      118 个单页 HTML 设计参考 + 中国传统色（7.9 MB）
   humanizer-zh/             去除中文文本的 AI 生成痕迹
   life-decision-guide/      人生决策问答，按成本/收益/证据排序
