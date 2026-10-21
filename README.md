@@ -65,17 +65,17 @@ Linux / macOS / Git Bash：
 
 ```bash
 git clone https://github.com/la1379/ai-toolkit.git
-cp -r ai-toolkit/skills/* ~/.claude/skills/
+cp -r ai-toolkit/skills/* ~/.agents/skills/
 ```
 
 Windows PowerShell：
 
 ```powershell
 git clone https://github.com/la1379/ai-toolkit.git
-Copy-Item -Recurse -Force ai-toolkit\skills\* "$HOME\.claude\skills\"
+Copy-Item -Recurse -Force ai-toolkit\skills\* "$HOME\.agents\skills\"
 ```
 
-只想用某一个：把对应目录整个拷进 `~/.claude/skills/` 即可，skill 名就是目录名。
+只想用某一个：把对应目录整个拷进 `~/.agents/skills/` 即可，skill 名就是目录名。Claude Code、DSH、Codex、Gemini CLI 都认这个位置；如果你的 Claude 用的是 junction 挂载，别往 `~/.claude/skills` 里拷实体目录。
 
 ## 使用前提
 
