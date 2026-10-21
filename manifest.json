@@ -81,6 +81,13 @@
                        "raw":  "https://raw.githubusercontent.com/la1379/ai-toolkit/main/skills/life-decision-guide/SKILL.md",
                        "description":  "用《高性价比人生指南》回答具体人生决策",
                        "raw_proxy":  "https://gh-proxy.com/https://raw.githubusercontent.com/la1379/ai-toolkit/main/skills/life-decision-guide/SKILL.md"
+                   },
+                   {
+                       "name":  "ppt-report-workflow",
+                       "path":  "skills/ppt-report-workflow/SKILL.md",
+                       "raw":  "https://raw.githubusercontent.com/la1379/ai-toolkit/main/skills/ppt-report-workflow/SKILL.md",
+                       "description":  "把 Word/PDF/项目材料整理成报告型 PPT，含逐页检查（整理自 Astra 工作流）",
+                       "raw_proxy":  "https://gh-proxy.com/https://raw.githubusercontent.com/la1379/ai-toolkit/main/skills/ppt-report-workflow/SKILL.md"
                    }
                ],
     "raw_proxy_base":  "https://gh-proxy.com/https://raw.githubusercontent.com/la1379/ai-toolkit/main"

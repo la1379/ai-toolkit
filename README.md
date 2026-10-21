@@ -49,6 +49,7 @@ skills/
   awesome-design-html/      118 个单页 HTML 设计参考 + 中国传统色（7.9 MB）
   humanizer-zh/             去除中文文本的 AI 生成痕迹
   life-decision-guide/      人生决策问答，按成本/收益/证据排序
+  ppt-report-workflow/      材料整理成报告型 PPT，逐页检查（整理自 Astra 工作流）
 ```
 
 ## Skills 一览
@@ -66,6 +67,7 @@ skills/
 | `awesome-design-html` | 118 个单页 HTML 设计参考，含 742 色中国传统色卡 | 做个 XX 风格的页面、配色 |
 | `humanizer-zh` | 按维基百科「AI 写作特征」清理中文文本 | 去 AI 味、自然一点 |
 | `life-decision-guide` | 用《高性价比人生指南》回答该不该/值不值/怎么选 | 该不该、值不值、帮我决定 |
+| `ppt-report-workflow` | Word/PDF/项目材料 → 报告型 PPT，含内容取舍与逐页检查 | 做汇报 PPT、报告 PPT、工作案例展示 |
 
 ## 安装
 
