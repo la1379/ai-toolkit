@@ -34,13 +34,6 @@
                        "raw_proxy":  "https://gh-proxy.com/https://raw.githubusercontent.com/la1379/ai-toolkit/main/skills/investment-review/SKILL.md"
                    },
                    {
-                       "name":  "hamiji",
-                       "path":  "skills/hamiji/SKILL.md",
-                       "raw":  "https://raw.githubusercontent.com/la1379/ai-toolkit/main/skills/hamiji/SKILL.md",
-                       "description":  "哈基米聊天风格（仅显式触发）",
-                       "raw_proxy":  "https://gh-proxy.com/https://raw.githubusercontent.com/la1379/ai-toolkit/main/skills/hamiji/SKILL.md"
-                   },
-                   {
                        "name":  "big-assignment-format",
                        "path":  "skills/big-assignment-format/SKILL.md",
                        "raw":  "https://raw.githubusercontent.com/la1379/ai-toolkit/main/skills/big-assignment-format/SKILL.md",

@@ -42,7 +42,6 @@ skills/
   bili-learn/               B 站收藏 → 可消化的学习条目（scripts/ 带 3 个零 token 脚本）
   shuorenhua-slop/          严格去 AI 腔的避雷清单
   investment-review/        炒股流程核查与交易复盘（不荐股）
-  hamiji/                   哈基米聊天风格（仅显式触发）
   big-assignment-format/    车辆/机械类课程文档格式
   exam-review-color/        彩色重点版复习资料
   exam-review-closed-book/   闭卷简答题模拟题集
@@ -56,7 +55,6 @@ skills/
 | `bili-learn` | 把 B 站收藏/链接变成带分级的学习条目 | 学习待办、收割收藏、这条归哪级 |
 | `shuorenhua-slop` | 清掉卖点堆叠、小剧场、否定递进等 AI 腔 | 避雷、严格去 AI 味 |
 | `investment-review` | 查公告、做交易复盘、识别荐股套路 | 复盘、这只票、这消息真假 |
-| `hamiji` | 短句、带梗的聊天人格 | 哈基米、hamiji 模式 |
 | `big-assignment-format` | 课程设计/实验报告/说明书的格式规范 | 大作业、课程设计、排版 |
 | `exam-review-color` | 彩色重点版复习资料，10 段固定结构 | 彩色重点版、分层精讲版 |
 | `exam-review-closed-book` | 闭卷简答题模拟题集 + 旧资料补全 | 闭卷简答题、模拟题集 |

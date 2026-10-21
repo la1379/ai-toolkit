@@ -19,7 +19,7 @@ https://gh-proxy.com/https://raw.githubusercontent.com/la1379/ai-toolkit/main/ma
 现在告诉我：一共几个 skill，分别叫什么。
 ```
 
-读到清单后，`skills` 里是这 8 个：`new-project`、`bili-learn`、`shuorenhua-slop`、`investment-review`、`hamiji`、`big-assignment-format`、`exam-review-color`、`exam-review-closed-book`。
+读到清单后，`skills` 里是这 7 个：`new-project`、`bili-learn`、`shuorenhua-slop`、`investment-review`、`big-assignment-format`、`exam-review-color`、`exam-review-closed-book`。
 
 ## 只用一个 skill
 
@@ -40,7 +40,6 @@ big-assignment-format    课程文档格式
 exam-review-color        彩色复习资料
 exam-review-closed-book  闭卷简答题
 bili-learn               B 站收藏整理
-hamiji                   哈基米聊天风格
 ```
 
 ## 如果 DSH 支持 git
@@ -59,7 +58,7 @@ git clone --branch v1.0.1 https://github.com/la1379/ai-toolkit.git
 
 | 类型 | Skill | 条件 |
 |---|---|---|
-| 只读文本就能用 | `new-project`、`shuorenhua-slop`、`investment-review`、`hamiji`、`big-assignment-format`、`exam-review-color`、`exam-review-close-book` | 模型能读中文指令即可 |
+| 只读文本就能用 | `new-project`、`shuorenhua-slop`、`investment-review`、`big-assignment-format`、`exam-review-color`、`exam-review-closed-book` | 模型能读中文指令即可 |
 | 需要运行环境 | `bili-learn` | B 站 MCP、Node.js、B 站 Cookie |
 
 拿不准就先从 `new-project` 或 `shuorenhua-slop` 试：这两个不依赖任何脚本。
